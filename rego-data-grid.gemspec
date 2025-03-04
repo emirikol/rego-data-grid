@@ -6,7 +6,7 @@
 
 Gem::Specification.new do |s|
   s.name = "rego-data-grid".freeze
-  s.version = "0.0.27"
+  s.version = "0.0.28"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]

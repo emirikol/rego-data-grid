@@ -62,7 +62,7 @@ module AjaxDataGrid
     end
 
     def translate(key, options = {})
-      I18n.t(key, {:scope => @options.i18n_scope}.update(options))
+      I18n.t(key, **{:scope => @options.i18n_scope}.update(options))
     end
 
   end

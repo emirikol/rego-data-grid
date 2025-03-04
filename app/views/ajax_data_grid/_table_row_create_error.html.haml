@@ -1,6 +1,6 @@
 %div.row_destroy_error
   %span.text=message
-  %span.reason=model.errors.values.flatten.first
+  %span.reason=model.errors.first.message
   =link_to t('application.close'), 'javascript:;', :class => 'close'
 
   %div.original_invitation
